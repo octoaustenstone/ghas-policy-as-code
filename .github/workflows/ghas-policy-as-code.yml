@@ -35,7 +35,7 @@ jobs:
           policy-path: policy.yml
 
           # The branch you want to target using `policy` argument
-          policy-branch: ${{ github.event.repository.default_branch || 'main' }}
+          # policy-branch: 'main'
 
           # GitHub Personal Access Token to access the GitHub API.
           # Secret Scanning and Dependabot do not allow their resources to be
