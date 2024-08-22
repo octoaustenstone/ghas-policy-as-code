@@ -41,7 +41,7 @@ jobs:
           # Secret Scanning and Dependabot do not allow their resources to be
           #  exposed to Actions so this might need to be set using a token that has
           #  the ability to access the resources
-          token: ${{ secrets.ACCESS_TOKEN }}
+          token: ${{ secrets.GHAS_POLICY_AS_CODE_TOKEN }}
 
           # [optional] GitHub reference, this is passed in by Actions at runtime
           # ref: refs/heads/main
