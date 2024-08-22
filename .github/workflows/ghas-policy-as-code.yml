@@ -18,7 +18,7 @@ jobs:
           # Set the severity levels which to set the threshold. All previous
           # severities are included so selecting 'error' also selects 'critical' and
           # 'high' along with 'error'.
-          severity: error
+          # severity: error
 
           # Repository owner/name.
           # This can be setup using a separate repository to the one being analysed
