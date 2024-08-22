@@ -28,7 +28,7 @@ jobs:
           # The owner/repo of where the policy is stored
           # This generally is primarily used for a single repository that defines
           #  your organizations security policy
-          policy: octoaustenstone/ghas-policy-as-code
+          # policy: octoaustenstone/ghas-policy-as-code
 
           # The path where the policy lives. This might be in either the current
           #  repository or in a remote repository.
